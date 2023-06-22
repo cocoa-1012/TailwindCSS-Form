@@ -11,42 +11,42 @@
 </head>
 
 <body>
-  <div class="w-screen h-screen bg-main flex items-center overflow-x-scroll">
-    <div class="flex flex-col mx-auto">
-      <div class="overflow-x-auto">
-        <div class="w-full px-5">
-          <p class="text-2xl font-semibold text-[#0C3B5B] mb-[30px]">Order History</p>
-          <div class="overflow-hidden bg-white px-[22px] mb-[10px] border-[1px] rounded-md border-[#CEE8F9]">
-            <table class="w-[1040px] text-center text-sm font-light -mb-[50px]">
-              <thead class="font-medium h-[43px]">
-                <tr class="mb-[10px]">
-                  <th scope="col" class="px-6 py-4 text-[14px]">Store#</th>
-                  <th scope="col" class="px-6 py-4">Order#</th>
-                  <th scope="col" class="px-6 py-4">Order Date</th>
-                  <th scope="col" class="px-6 py-4">Order Amount</th>
-                  <th scope="col" class="px-6 py-4">Status</th>
-                  <th scope="col" class="px-6 py-4">Ship Date</th>
-                  <th scope="col" class="px-6 py-4">Tracking Number</th>
-                </tr>
-              </thead>
-              <tbody class="invisible">
-                <tr class="bg-white">
-                  <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">14</td>
-                  <td class="whitespace-nowrap px-6 py-4">515084</td>
-                  <td class="whitespace-nowrap px-6 py-4">1/12/2022</td>
-                  <td class="whitespace-nowrap px-6 py-4">$65.79</td>
-                  <td class="whitespace-nowrap px-6 py-4">Shipped</td>
-                  <td class="whitespace-nowrap px-6 py-4">1/23</td>
-                  <td class="whitespace-nowrap px-6 py-4">44353412343</td>
-                </tr>
+  <div class="min-h-screen bg-[#EDF8FF] flex flex-col items-center">
+    <p class="w-full max-w-[1040px] p-5 md:px-0 text-2xl font-semibold text-[#0C3B5B] mb-[30px]">Order History</p>
+    <div class="w-full h-full flex flex-col items-center overflow-x-auto">
+      <div class="flex flex-col mx-auto">        
+        <div class="overflow-x-auto">
+          <div class="w-[1040px] mx-5">
+            <div class="overflow-hidden bg-white px-[22px] mb-[10px] border-[1px] rounded-md border-[#CEE8F9]">
+              <table class="w-full text-center text-sm font-light -mb-[50px]">
+                <thead class="font-medium h-[43px]">
+                  <tr class="mb-[10px]">
+                    <th scope="col" class="px-6 py-4 text-[14px]">Store#</th>
+                    <th scope="col" class="px-6 py-4">Order#</th>
+                    <th scope="col" class="px-6 py-4">Order Date</th>
+                    <th scope="col" class="px-6 py-4">Order Amount</th>
+                    <th scope="col" class="px-6 py-4">Status</th>
+                    <th scope="col" class="px-6 py-4">Ship Date</th>
+                    <th scope="col" class="px-6 py-4">Tracking Number</th>
+                  </tr>
+                </thead>
+                <tbody class="invisible">
+                  <tr class="bg-white">
+                    <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">14</td>
+                    <td class="whitespace-nowrap px-6 py-4">515084</td>
+                    <td class="whitespace-nowrap px-6 py-4">1/12/2022</td>
+                    <td class="whitespace-nowrap px-6 py-4">$65.79</td>
+                    <td class="whitespace-nowrap px-6 py-4">Shipped</td>
+                    <td class="whitespace-nowrap px-6 py-4">1/23</td>
+                    <td class="whitespace-nowrap px-6 py-4">44353412343</td>
+                  </tr>
 
-              </tbody>
-            </table>
-          </div>
-          <div class="bg-white px-[22px] pb-10 border-[1px] rounded-md border-[#CEE8F9] -pt-20">
-              <table class="w-[1040px] text-center text-sm font-light -mt-[50px]">
-                <thead
-                  class="invisible font-medium text-[#5F5F5F] h-[0px]">
+                </tbody>
+              </table>
+            </div>
+            <div class="bg-white px-[22px] pb-10 border-[1px] rounded-md border-[#CEE8F9] -pt-20">
+              <table class="w-full text-center text-sm font-light -mt-[50px]">
+                <thead class="invisible font-medium text-[#5F5F5F] h-[0px]">
                   <tr class="overflow-hidden">
                     <th scope="col" class="px-6 py-4">Store#</th>
                     <th scope="col" class="px-6 py-4">Order#</th>
@@ -58,8 +58,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr
-                    class="bg-white h-[50px]">
+                  <tr class="bg-white h-[50px]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">12</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
@@ -68,18 +67,17 @@
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">44353412343</td>
                   </tr>
-                  <tr
-                    class="[&_td]:bg-[#EDF8FF]">
+                  <tr class="[&_td]:bg-[#EDF8FF]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F] rounded-l-md">14</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">$65.79</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">Shipped</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
-                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">44353412343</td>
+                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">
+                      44353412343</td>
                   </tr>
-                  <tr
-                    class="bg-white">
+                  <tr class="bg-white">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">19</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
@@ -88,18 +86,17 @@
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">44353412343</td>
                   </tr>
-                  <tr
-                    class="[&_td]:bg-[#EDF8FF]">
+                  <tr class="[&_td]:bg-[#EDF8FF]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F] rounded-l-md">11</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">$65.79</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">Shipped</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
-                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">44353412343</td>
+                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">
+                      44353412343</td>
                   </tr>
-                  <tr
-                    class="bg-white">
+                  <tr class="bg-white">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">12</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
@@ -108,18 +105,17 @@
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">44353412343</td>
                   </tr>
-                  <tr
-                    class="[&_td]:bg-[#EDF8FF]">
+                  <tr class="[&_td]:bg-[#EDF8FF]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F] rounded-l-md">12</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">$65.79</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">Shipped</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
-                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">44353412343</td>
+                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">
+                      44353412343</td>
                   </tr>
-                  <tr
-                    class="bg-white">
+                  <tr class="bg-white">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">11</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
@@ -128,18 +124,17 @@
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">44353412343</td>
                   </tr>
-                  <tr
-                    class="[&_td]:bg-[#EDF8FF]">
+                  <tr class="[&_td]:bg-[#EDF8FF]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F] rounded-l-md">12</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">$65.79</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">Shipped</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
-                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">44353412343</td>
+                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">
+                      44353412343</td>
                   </tr>
-                  <tr
-                    class="bg-white">
+                  <tr class="bg-white">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">19</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
@@ -148,60 +143,62 @@
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">44353412343</td>
                   </tr>
-                  <tr
-                    class="[&_td]:bg-[#EDF8FF]">
+                  <tr class="[&_td]:bg-[#EDF8FF]">
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F] rounded-l-md">19</td>
                     <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B]">515084</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/12/2022</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">$65.79</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">Shipped</td>
                     <td class="whitespace-nowrap px-6 py-4 font-medium text-[#5F5F5F]">1/23</td>
-                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">44353412343</td>
+                    <td class="whitespace-nowrap px-6 py-4 underline font-semibold text-[#0C3B5B] rounded-r-md">
+                      44353412343</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-          <div class="flex flex-col items-center w-full mt-12">
-            <p class="text-sm font-semibold">Page 1 of 9 - Showing 18 of 64 Orders</p>
-            <div class="mt-7">
-              <nav class="isolate inline-flex" aria-label="Pagination">
-                <a href="#"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">
-                  <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M2.353 5.142L2.821 4.778L1.287 2.724L2.821 0.696L2.353 0.306L0.585 2.321V3.127L2.353 5.142ZM4.42 5.142L4.875 4.778L3.341 2.724L4.875 0.696L4.42 0.306L2.639 2.321V3.127L4.42 5.142Z"
-                      fill="#5F5F5F" />
-                  </svg>
-                </a>
-                <!-- Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" -->
-                <a href="#" aria-current="page" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-2 mr-1 rounded-md border-[#ACCC4A] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">1</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">2</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">3</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">4</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">5</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">6</a>
-                <span
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">...</span>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">9</a>
-                <a href="#" rel="noreferrer"
-                  class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">
-                  <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.702 4.778L1.157 5.142L2.938 3.127V2.321L1.157 0.306L0.702 0.696L2.236 2.724L0.702 4.778ZM2.756 4.778L3.224 5.142L4.992 3.127V2.321L3.224 0.306L2.756 0.696L4.29 2.724L2.756 4.778Z"
-                      fill="#5F5F5F" />
-                  </svg>
-                </a>
-              </nav>
-            </div>
+            
           </div>
         </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center w-full my-12">
+      <p class="text-sm font-semibold">Page 1 of 9 - Showing 18 of 64 Orders</p>
+      <div class="mt-7">
+        <nav class="isolate inline-flex" aria-label="Pagination">
+          <a href="#"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">
+            <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.353 5.142L2.821 4.778L1.287 2.724L2.821 0.696L2.353 0.306L0.585 2.321V3.127L2.353 5.142ZM4.42 5.142L4.875 4.778L3.341 2.724L4.875 0.696L4.42 0.306L2.639 2.321V3.127L4.42 5.142Z"
+                fill="#5F5F5F" />
+            </svg>
+          </a>
+          <!-- Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" -->
+          <a href="#" aria-current="page" rel="noreferrer"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-2 mr-1 rounded-md border-[#ACCC4A] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">1</a>
+          <a href="#" rel="noreferrer"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">2</a>
+          <a href="#" rel="noreferrer"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">3</a>
+          <a href="#" rel="noreferrer"
+            class="relative hidden md:inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">4</a>
+          <a href="#" rel="noreferrer"
+            class="relative hidden md:inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">5</a>
+          <a href="#" rel="noreferrer"
+            class="relative hidden md:inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">6</a>
+          <span
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">...</span>
+          <a href="#" rel="noreferrer"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] text-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">9</a>
+          <a href="#" rel="noreferrer"
+            class="relative inline-flex items-center justify-center bg-white w-10 h-10 border-[1px] mr-1 rounded-md border-[#CEE8F9] text-[#5F5F5F] ring-1 ring-inset ring-gray-300 hover:bg-gray-100 focus:z-20 focus:outline-offset-0">
+            <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.702 4.778L1.157 5.142L2.938 3.127V2.321L1.157 0.306L0.702 0.696L2.236 2.724L0.702 4.778ZM2.756 4.778L3.224 5.142L4.992 3.127V2.321L3.224 0.306L2.756 0.696L4.29 2.724L2.756 4.778Z"
+                fill="#5F5F5F" />
+            </svg>
+          </a>
+        </nav>
       </div>
     </div>
   </div>
